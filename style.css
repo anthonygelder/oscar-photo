@@ -103,7 +103,8 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #mySlider {
-	border-top: 9px solid white;
+	/* border-top: 9px solid white; */
+	margin-top: 9px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -117,6 +118,7 @@ a:hover, a:visited, a:link, a:active {
 #prev {
 	max-width: 100%;
 	left: calc(0% - 45px);
+	border: solid 5px yellow;
 }
 
 .btn {
@@ -189,6 +191,21 @@ a:hover, a:visited, a:link, a:active {
 p {
 	font-size: 15px;
 }
+
+.white {
+	color: white;
+}
+
+.black {
+	background-color: black;
+}
+
+.whiteBorder {
+	border-left: 10px double white;
+	border-right: 10px double white;
+}
+
+
 
 @media screen and (max-width: 576px) {
 

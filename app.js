@@ -10,6 +10,21 @@ $(document).on('ready', function () {
 		mobileFirst: true,
 		autoplay: true
 	});
+
+	$("h1").on("click", function() {
+		$("h1, i, a").toggleClass("white");
+		$("body").toggleClass("black");
+		$(".content").toggleClass("whiteBorder");
+		$(".prev").toggleClass("white");
+	});
+
+	// $('h1').toggle(function () {
+	// 	$(".content").css("border-left", "10px double white");
+	// }, function () {
+	// 	$(".content").css("border-left", "10px double black");
+	// });
+
+
 });
 
 // Toggles showing the dropdown on click
