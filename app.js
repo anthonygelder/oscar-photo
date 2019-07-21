@@ -15,15 +15,10 @@ $(document).on('ready', function () {
 		$("h1, i, a").toggleClass("white");
 		$("body").toggleClass("black");
 		$(".content").toggleClass("whiteBorder");
-		$(".prev").toggleClass("white");
+		$(".prev").toggleClass("darkArrow");
+		$(".next").toggleClass("darkArrow");
+		$("h2").toggleClass("white");
 	});
-
-	// $('h1').toggle(function () {
-	// 	$(".content").css("border-left", "10px double white");
-	// }, function () {
-	// 	$(".content").css("border-left", "10px double black");
-	// });
-
 
 });
 

@@ -57,7 +57,7 @@ h1 {
 	text-shadow: 1px 1px 8px rgb(204, 203, 203);
 	letter-spacing: 5px;
 	text-transform: uppercase;
-	margin-left: 16px;
+	margin-left: 24px;
 }
 
 h2 {
@@ -118,7 +118,6 @@ a:hover, a:visited, a:link, a:active {
 #prev {
 	max-width: 100%;
 	left: calc(0% - 45px);
-	border: solid 5px yellow;
 }
 
 .btn {
@@ -193,7 +192,12 @@ p {
 }
 
 .white {
-	color: white;
+	color: rgba(255, 255, 255, 0.856);
+}
+
+.white:hover {
+	color: black;
+	text-shadow: -1px -1px rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255), -1px 1px rgb(252, 252, 252);
 }
 
 .black {
@@ -201,10 +205,15 @@ p {
 }
 
 .whiteBorder {
-	border-left: 10px double white;
-	border-right: 10px double white;
+	border-left: 10px double rgba(255, 255, 255, 0.856);
+	border-right: 10px double rgba(255, 255, 255, 0.856);
 }
 
+.darkArrow {
+	background-color: rgba(255, 255, 255, 0.856);
+	border-top: 1px solid rgba(255, 255, 255, 0.856);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.856);
+}
 
 
 @media screen and (max-width: 576px) {
